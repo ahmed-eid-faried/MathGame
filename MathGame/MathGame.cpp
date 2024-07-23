@@ -262,5 +262,6 @@ void SartGame() {
 }
 int main()
 {
+	srand((unsigned)time(NULL));
 	SartGame();
 }
